@@ -1,10 +1,10 @@
 // I know its called favourite but its called Like everwhere but the API
 // So it's like here
 
-var twity = require('twit');
+var twitty = require('twit');
 var config = require('./config');
 
-var Twitter = new twit(config);
+var Twitter = new twitty(config);
 
 // gets a random tweet based on q parameter and then'likes' it
 // q is required for the program to work
@@ -16,7 +16,7 @@ var likeTweet = function(){
   }
   
   // find the tweet
-  Twitter.get('search/tweets', params, function(error,data){
+  Twitter.get('search/tweets', parameters, function(error,data){
 
     // find tweets using q value
     var tweet = data.statuses;
@@ -45,5 +45,5 @@ function getRandomTweet(array) {
 };
 
 // likes tweet when running
-favoriteTweet();
+likeTweet();
 
