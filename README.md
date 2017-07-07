@@ -1,2 +1,2 @@
 # TwitterBots
-A collection of some API's I wrote with NodeJS
+I use Twitter lots, this is a collection of some fun Twitter API's I wrote using NodeJS.
