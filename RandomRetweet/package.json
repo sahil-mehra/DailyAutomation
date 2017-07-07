@@ -2,7 +2,7 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "twitterbot, random retweets based on hashtags",
-  "main": "bot.js",
+  "main": "random-retweet.js",
   "author": "james mcdermott",
   "license": "ISC",
   "dependencies": {
