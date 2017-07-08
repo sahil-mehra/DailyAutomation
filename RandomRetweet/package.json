@@ -5,6 +5,9 @@
   "main": "random-retweet.js",
   "author": "james mcdermott",
   "license": "ISC",
+  "scripts": {
+    "start": "node random-retweet.js"
+  },
   "dependencies": {
     "twit": "^2.2.9"
   }
