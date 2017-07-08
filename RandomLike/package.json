@@ -5,6 +5,9 @@
   "main": "random-like.js",
   "author": "james mcdermott",
   "license": "ISC",
+  "scripts": {
+    "start": "node random-like.js"
+  },
   "dependencies": {
     "twit": "^2.2.9"
   }
