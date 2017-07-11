@@ -1,0 +1,14 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "twitterbot, random retweets based on hashtags",
+  "main": "random-like.js",
+  "author": "james mcdermott",
+  "license": "ISC",
+  "scripts": {
+    "start": "node follow.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
