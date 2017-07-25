@@ -11,7 +11,6 @@ var config = require('./config.js');
 // Making a twitty object for connection to the API
 var Twitter = new twitty(config);
 
-
 // function which posts tweet taken as a cl arg
 function tweeter() {
 
