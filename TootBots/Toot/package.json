@@ -1,0 +1,13 @@
+{
+  "name": "toot",
+  "version": "1.0.0",
+  "main": "toot.js",
+  "author": "james mcdermott",
+  "license": "ISC",
+  "dependencies": {
+    "mastodon": "^1.2.1",
+  },
+  "devDependencies": {},
+  "description": "toots from commandline to mastodon"
+}
+
