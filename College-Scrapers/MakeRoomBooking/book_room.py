@@ -52,9 +52,9 @@ def fill_form(date, month, year):
     browser.form["submitted[date_room_required][day]"] = [date,]
     browser.form["submitted[date_room_required][month]"] = [month,]
     browser.form["submitted[date_room_required][year]"] = [year,]
-    browser.form["submitted[room_capacity]"] = "15"
+    browser.form["submitted[room_capacity]"] = "Capacity"
     browser.form["submitted[description_of_event]"] = "Description"
-    browser.form["submitted[hours_requiredfrom_to]"] = "18:00 - 19:00"
+    browser.form["submitted[hours_requiredfrom_to]"] = "Start - End"
     browser.form["submitted[building_room_reference]"] = "Room-Reference-Number"
     browser.form["submitted[email_address]"] = "Email"
 
@@ -77,6 +77,7 @@ def format_form(lst):
 
 
 def make_booking(form):
+    response = form.submit()
     request = form.request
     print("Header: " + request.header_items())
     if response.code == 200:
